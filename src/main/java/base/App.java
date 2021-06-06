@@ -18,7 +18,7 @@ public class App {
     }
 
     public String generateOutput(int age) {
-        String output = (age >= 16) ? (String.format("You are old enough to legally drive."))
+        String output = (age >= legalAge) ? (String.format("You are old enough to legally drive."))
                 : (String.format("You are not old enough to legally drive."));
 
         return output;
